@@ -1,0 +1,590 @@
+# ──────────────────────────────────────────────────────────────────────────────
+#  Team Name Mapping
+#  Maps raw/variant team names → canonical team name
+#  Used by TeamNormalizer to reconcile ESPN, Torvik, and Odds API names.
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Format:
+#   canonical_name:
+#     - variant1
+#     - variant2
+#     ...
+
+Connecticut:
+  - UConn
+  - Connecticut Huskies
+  - UCONN
+  - Uconn Huskies
+  - U Conn
+
+North Carolina:
+  - UNC
+  - North Carolina Tar Heels
+  - Tar Heels
+  - UNC Tar Heels
+  - North Carolina-Chapel Hill
+
+Duke:
+  - Duke Blue Devils
+  - Blue Devils
+
+Kansas:
+  - Kansas Jayhawks
+  - KU
+  - Jayhawks
+
+Kentucky:
+  - Kentucky Wildcats
+  - UK
+
+Gonzaga:
+  - Gonzaga Bulldogs
+  - Zags
+
+Villanova:
+  - Villanova Wildcats
+  - Nova
+
+Louisville:
+  - Louisville Cardinals
+  - U of L
+
+Syracuse:
+  - Syracuse Orange
+  - Cuse
+
+Michigan State:
+  - Michigan State Spartans
+  - MSU
+  - Mich St
+  - Mich. St.
+
+Indiana:
+  - Indiana Hoosiers
+  - IU
+
+Ohio State:
+  - Ohio State Buckeyes
+  - OSU
+  - Ohio St
+  - Ohio St.
+
+Michigan:
+  - Michigan Wolverines
+  - U of M
+
+Wisconsin:
+  - Wisconsin Badgers
+  - Wisc
+
+Purdue:
+  - Purdue Boilermakers
+  - Boilermakers
+
+Iowa:
+  - Iowa Hawkeyes
+  - Hawkeyes
+
+Illinois:
+  - Illinois Fighting Illini
+  - Fighting Illini
+
+UCLA:
+  - UCLA Bruins
+  - Bruins
+
+USC:
+  - USC Trojans
+  - Southern California
+  - Southern Cal
+  - So. California
+
+Arizona:
+  - Arizona Wildcats
+  - Zona
+
+Arizona State:
+  - Arizona State Sun Devils
+  - ASU
+  - Az State
+  - Ariz. St.
+
+Colorado:
+  - Colorado Buffaloes
+  - CU
+  - Buffs
+
+Oregon:
+  - Oregon Ducks
+  - Ducks
+
+Oregon State:
+  - Oregon State Beavers
+  - Ore. St.
+  - OSU Beavers
+
+Washington:
+  - Washington Huskies
+  - UW
+  - Wash Huskies
+
+Washington State:
+  - Washington State Cougars
+  - WSU
+  - Wazzu
+  - Wash. St.
+
+California:
+  - Cal
+  - California Golden Bears
+  - UC Berkeley
+
+Stanford:
+  - Stanford Cardinal
+
+Utah:
+  - Utah Utes
+  - Utes
+
+Texas:
+  - Texas Longhorns
+  - UT
+  - Texas-Austin
+
+Texas Tech:
+  - Texas Tech Red Raiders
+  - TTU
+  - Red Raiders
+
+Baylor:
+  - Baylor Bears
+  - Bears
+
+TCU:
+  - TCU Horned Frogs
+  - Texas Christian
+  - Horned Frogs
+
+Oklahoma:
+  - Oklahoma Sooners
+  - OU
+  - Sooners
+
+Oklahoma State:
+  - Oklahoma State Cowboys
+  - Okla. St.
+  - OK State
+
+Kansas State:
+  - Kansas State Wildcats
+  - K-State
+  - KSU
+  - Kans. St.
+
+Iowa State:
+  - Iowa State Cyclones
+  - ISU
+  - Cyclones
+
+West Virginia:
+  - West Virginia Mountaineers
+  - WVU
+
+Alabama:
+  - Alabama Crimson Tide
+  - Bama
+  - Crimson Tide
+
+Auburn:
+  - Auburn Tigers
+  - Tigers
+
+Tennessee:
+  - Tennessee Volunteers
+  - Vols
+  - UT Vols
+
+LSU:
+  - Louisiana State
+  - Louisiana State Tigers
+  - LSU Tigers
+
+Ole Miss:
+  - Mississippi
+  - Mississippi Rebels
+  - Miss
+  - Ole Miss Rebels
+
+Mississippi State:
+  - Mississippi State Bulldogs
+  - MSU Bulldogs
+  - Miss. St.
+
+Georgia:
+  - Georgia Bulldogs
+  - UGA
+
+Florida:
+  - Florida Gators
+  - Gators
+  - UF
+
+Arkansas:
+  - Arkansas Razorbacks
+  - Hogs
+  - Razorbacks
+
+South Carolina:
+  - South Carolina Gamecocks
+  - Gamecocks
+  - S. Carolina
+
+Missouri:
+  - Missouri Tigers
+  - Mizzou
+  - Miz
+
+Vanderbilt:
+  - Vanderbilt Commodores
+  - Vandy
+  - Commodores
+
+Virginia:
+  - Virginia Cavaliers
+  - UVA
+  - Cavaliers
+
+Virginia Tech:
+  - Virginia Tech Hokies
+  - VT
+  - Hokies
+
+North Carolina State:
+  - NC State
+  - NC State Wolfpack
+  - N.C. State
+  - Wolfpack
+  - North Carolina St
+
+Wake Forest:
+  - Wake Forest Demon Deacons
+  - Wake
+  - Deacons
+
+Duke:
+  - Duke Blue Devils
+
+Clemson:
+  - Clemson Tigers
+
+Pittsburgh:
+  - Pitt
+  - Pittsburgh Panthers
+  - Panthers
+
+Miami (FL):
+  - Miami
+  - Miami Hurricanes
+  - The U
+
+Notre Dame:
+  - Notre Dame Fighting Irish
+  - ND
+  - Irish
+
+Boston College:
+  - BC
+  - Boston College Eagles
+  - Eagles
+
+Georgia Tech:
+  - Georgia Tech Yellow Jackets
+  - GT
+  - Yellow Jackets
+
+Florida State:
+  - Florida State Seminoles
+  - FSU
+  - Noles
+  - Seminoles
+
+Saint Mary's:
+  - St. Mary's
+  - Saint Mary's Gaels
+  - St. Mary's (CA)
+  - St Marys
+
+San Diego State:
+  - San Diego St
+  - Aztecs
+  - SDSU
+  - San Diego St. Aztecs
+
+Nevada:
+  - Nevada Wolf Pack
+  - UNR
+
+UNLV:
+  - Nevada-Las Vegas
+  - Runnin Rebels
+  - UNLV Rebels
+
+Utah State:
+  - Utah St
+  - Utah State Aggies
+  - USU
+
+Boise State:
+  - Boise St
+  - Boise State Broncos
+  - BSU
+
+Fresno State:
+  - Fresno St
+  - Fresno State Bulldogs
+
+New Mexico:
+  - New Mexico Lobos
+  - UNM
+  - Lobos
+
+Air Force:
+  - Air Force Falcons
+  - USAFA
+
+Colorado State:
+  - Colorado St
+  - Colorado State Rams
+  - CSU
+
+Wyoming:
+  - Wyoming Cowboys
+  - Pokes
+
+UCF:
+  - Central Florida
+  - UCF Knights
+  - Central Florida Knights
+
+USF:
+  - South Florida
+  - USF Bulls
+  - South Florida Bulls
+
+Memphis:
+  - Memphis Tigers
+  - Tiger Lane
+
+Tulane:
+  - Tulane Green Wave
+
+Cincinnati:
+  - Cincinnati Bearcats
+  - Cincy
+  - Bearcats
+
+Temple:
+  - Temple Owls
+  - Owls
+
+SMU:
+  - Southern Methodist
+  - SMU Mustangs
+  - Mustangs
+
+Wichita State:
+  - Wichita St
+  - Wichita State Shockers
+  - Shockers
+  - WSU Shockers
+
+Houston:
+  - Houston Cougars
+  - UH
+
+Tulsa:
+  - Tulsa Golden Hurricane
+  - Golden Hurricane
+
+East Carolina:
+  - ECU
+  - East Carolina Pirates
+  - Pirates
+
+North Texas:
+  - North Texas Mean Green
+  - Mean Green
+  - UNT
+
+Butler:
+  - Butler Bulldogs
+
+Xavier:
+  - Xavier Musketeers
+  - Musketeers
+
+Creighton:
+  - Creighton Bluejays
+  - Bluejays
+
+Providence:
+  - Providence Friars
+  - Friars
+
+Georgetown:
+  - Georgetown Hoyas
+  - Hoyas
+
+Marquette:
+  - Marquette Golden Eagles
+  - Golden Eagles
+  - MU
+
+DePaul:
+  - DePaul Blue Demons
+  - Blue Demons
+
+St. John's:
+  - Saint John's
+  - St. John's Red Storm
+  - Red Storm
+
+Seton Hall:
+  - Seton Hall Pirates
+
+UConn:
+  - Connecticut
+
+Maryland:
+  - Maryland Terrapins
+  - Terps
+  - UMD
+
+Rutgers:
+  - Rutgers Scarlet Knights
+  - Scarlet Knights
+
+Penn State:
+  - Penn State Nittany Lions
+  - PSU
+  - Nittany Lions
+
+Nebraska:
+  - Nebraska Cornhuskers
+  - Huskers
+
+Northwestern:
+  - Northwestern Wildcats
+  - NU Wildcats
+
+Minnesota:
+  - Minnesota Golden Gophers
+  - Gophers
+
+VCU:
+  - Virginia Commonwealth
+  - Virginia Commonwealth Rams
+
+Dayton:
+  - Dayton Flyers
+  - Flyers
+
+Rhode Island:
+  - Rhode Island Rams
+  - URI
+  - Rams
+
+Davidson:
+  - Davidson Wildcats
+
+La Salle:
+  - LaSalle
+  - La Salle Explorers
+
+George Mason:
+  - George Mason Patriots
+  - Patriots
+
+Vermont:
+  - Vermont Catamounts
+  - Catamounts
+  - UVM
+
+Belmont:
+  - Belmont Bruins
+
+Murray State:
+  - Murray St
+  - Murray State Racers
+  - Racers
+
+Drake:
+  - Drake Bulldogs
+
+Loyola Chicago:
+  - Loyola-Chicago
+  - Loyola (IL)
+  - Ramblers
+
+Indiana State:
+  - Indiana State Sycamores
+  - Sycamores
+  - Ind. St.
+
+Southern Illinois:
+  - Southern Illinois Salukis
+  - SIU
+  - Salukis
+
+Bradley:
+  - Bradley Braves
+
+Long Beach State:
+  - Long Beach St
+  - Long Beach State 49ers
+  - 49ers
+
+UC Irvine:
+  - Irvine
+  - UCI
+  - UC Irvine Anteaters
+
+UC Santa Barbara:
+  - UCSB
+  - Gauchos
+
+Cal Poly:
+  - Cal Poly Mustangs
+
+Hawaii:
+  - Hawai'i
+  - Hawaii Rainbow Warriors
+
+San Jose State:
+  - San Jose St
+  - Spartans (SJSU)
+
+Stony Brook:
+  - Stony Brook Seawolves
+
+Vermont:
+  - Vermont Catamounts
+
+Albany:
+  - Albany Great Danes
+  - UAlbany
+
+Maine:
+  - Maine Black Bears
+
+New Hampshire:
+  - New Hampshire Wildcats
+  - UNH
+
+Northeastern:
+  - Northeastern Huskies
+
+UMass:
+  - Massachusetts
+  - Massachusetts Minutemen
+  - UMass Minutemen

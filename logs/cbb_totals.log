@@ -1,0 +1,165 @@
+2026-03-18 15:34:15 | DEBUG    | cbb_totals.src.utils.db        | Using SQLite database at C:\Users\ryanb\cbb-totals\data\cbb_totals.db
+2026-03-18 15:34:16 | INFO     | cbb_totals.src.utils.db        | Database schema initialized.
+2026-03-18 15:36:30 | DEBUG    | cbb_totals.src.utils.db        | Using SQLite database at C:\Users\ryanb\cbb-totals\data\cbb_totals.db
+2026-03-18 15:36:30 | INFO     | cbb_totals.src.utils.db        | Database schema initialized.
+2026-03-18 15:36:30 | INFO     | cbb_totals.src.pipeline.daily_pipeline | ============================================================
+2026-03-18 15:36:30 | INFO     | cbb_totals.src.pipeline.daily_pipeline | CBB Totals Pipeline — Running for 2026-03-18
+2026-03-18 15:36:30 | INFO     | cbb_totals.src.pipeline.daily_pipeline | ============================================================
+2026-03-18 15:36:33 | DEBUG    | cbb_totals.src.data.team_normalizer | TeamNormalizer loaded 126 canonical teams with 318 variant mappings.
+2026-03-18 15:36:50 | INFO     | cbb_totals.src.pipeline.daily_pipeline | No trained ML models found. Running baseline-only mode.
+2026-03-18 15:36:51 | INFO     | cbb_totals.src.pipeline.daily_pipeline | Step 1/7: Fetching schedule...
+2026-03-18 15:36:51 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN scoreboard for 20260318
+2026-03-18 15:36:52 | INFO     | cbb_totals.src.data.espn_adapter | ESPN scoreboard 20260318: found 10 games.
+2026-03-18 15:36:52 | INFO     | cbb_totals.src.pipeline.daily_pipeline | Found 10 games for 2026-03-18.
+2026-03-18 15:36:52 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Could not upsert game espn_401856437: 'home_team' is an invalid keyword argument for Game
+2026-03-18 15:36:52 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Could not upsert game espn_401856436: 'home_team' is an invalid keyword argument for Game
+2026-03-18 15:36:52 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Could not upsert game espn_401858344: 'home_team' is an invalid keyword argument for Game
+2026-03-18 15:36:52 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Could not upsert game espn_401858345: 'home_team' is an invalid keyword argument for Game
+2026-03-18 15:36:52 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Could not upsert game espn_401858343: 'home_team' is an invalid keyword argument for Game
+2026-03-18 15:36:52 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Could not upsert game espn_401858346: 'home_team' is an invalid keyword argument for Game
+2026-03-18 15:36:52 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Could not upsert game espn_401858342: 'home_team' is an invalid keyword argument for Game
+2026-03-18 15:36:52 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Could not upsert game espn_401858341: 'home_team' is an invalid keyword argument for Game
+2026-03-18 15:36:52 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Could not upsert game espn_401858348: 'home_team' is an invalid keyword argument for Game
+2026-03-18 15:36:52 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Could not upsert game espn_401858347: 'home_team' is an invalid keyword argument for Game
+2026-03-18 15:36:52 | INFO     | cbb_totals.src.pipeline.daily_pipeline | Step 2/7: Fetching stats and building features...
+2026-03-18 15:36:52 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2329, season 2026
+2026-03-18 15:36:53 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:36:54 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2329, season 2026
+2026-03-18 15:36:54 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:36:55 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2329, season 2026
+2026-03-18 15:36:56 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:36:56 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2504, season 2026
+2026-03-18 15:36:57 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:36:58 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2504, season 2026
+2026-03-18 15:36:58 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:36:59 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2504, season 2026
+2026-03-18 15:37:00 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:00 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 2329, season 2026
+2026-03-18 15:37:01 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 2504, season 2026
+2026-03-18 15:37:01 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2567, season 2026
+2026-03-18 15:37:02 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:03 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2567, season 2026
+2026-03-18 15:37:04 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:05 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2567, season 2026
+2026-03-18 15:37:05 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:05 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 193, season 2026
+2026-03-18 15:37:06 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:07 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 193, season 2026
+2026-03-18 15:37:07 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:08 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 193, season 2026
+2026-03-18 15:37:09 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:09 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 2567, season 2026
+2026-03-18 15:37:10 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 193, season 2026
+2026-03-18 15:37:11 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 154, season 2026
+2026-03-18 15:37:11 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:12 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 154, season 2026
+2026-03-18 15:37:13 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:14 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 154, season 2026
+2026-03-18 15:37:14 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:14 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2426, season 2026
+2026-03-18 15:37:15 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:16 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2426, season 2026
+2026-03-18 15:37:17 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:18 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2426, season 2026
+2026-03-18 15:37:18 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:18 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 154, season 2026
+2026-03-18 15:37:19 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 2426, season 2026
+2026-03-18 15:37:20 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2287, season 2026
+2026-03-18 15:37:21 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:22 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2287, season 2026
+2026-03-18 15:37:23 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:24 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2287, season 2026
+2026-03-18 15:37:24 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:24 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2309, season 2026
+2026-03-18 15:37:25 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:26 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2309, season 2026
+2026-03-18 15:37:27 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:28 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2309, season 2026
+2026-03-18 15:37:28 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:28 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 2287, season 2026
+2026-03-18 15:37:29 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 2309, season 2026
+2026-03-18 15:37:30 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 3084, season 2026
+2026-03-18 15:37:30 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:31 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 3084, season 2026
+2026-03-18 15:37:32 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:33 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 3084, season 2026
+2026-03-18 15:37:34 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:34 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 45, season 2026
+2026-03-18 15:37:35 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:36 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 45, season 2026
+2026-03-18 15:37:36 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:37 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 45, season 2026
+2026-03-18 15:37:38 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:38 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 3084, season 2026
+2026-03-18 15:37:38 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 45, season 2026
+2026-03-18 15:37:39 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 71, season 2026
+2026-03-18 15:37:40 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:41 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 71, season 2026
+2026-03-18 15:37:41 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:42 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 71, season 2026
+2026-03-18 15:37:43 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:43 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2168, season 2026
+2026-03-18 15:37:44 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:45 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2168, season 2026
+2026-03-18 15:37:45 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:46 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2168, season 2026
+2026-03-18 15:37:47 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:47 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 71, season 2026
+2026-03-18 15:37:47 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 2168, season 2026
+2026-03-18 15:37:48 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 167, season 2026
+2026-03-18 15:37:49 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:50 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 167, season 2026
+2026-03-18 15:37:50 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:51 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 167, season 2026
+2026-03-18 15:37:52 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:52 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2534, season 2026
+2026-03-18 15:37:52 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:53 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2534, season 2026
+2026-03-18 15:37:54 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:55 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2534, season 2026
+2026-03-18 15:37:56 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:56 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 167, season 2026
+2026-03-18 15:37:56 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 2534, season 2026
+2026-03-18 15:37:57 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2440, season 2026
+2026-03-18 15:37:57 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:37:58 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2440, season 2026
+2026-03-18 15:37:59 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:00 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2440, season 2026
+2026-03-18 15:38:01 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:01 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 93, season 2026
+2026-03-18 15:38:01 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:02 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 93, season 2026
+2026-03-18 15:38:03 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:04 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 93, season 2026
+2026-03-18 15:38:05 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:05 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 2440, season 2026
+2026-03-18 15:38:05 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 93, season 2026
+2026-03-18 15:38:06 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 36, season 2026
+2026-03-18 15:38:06 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:07 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 36, season 2026
+2026-03-18 15:38:08 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:09 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 36, season 2026
+2026-03-18 15:38:10 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:10 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2603, season 2026
+2026-03-18 15:38:10 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:11 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2603, season 2026
+2026-03-18 15:38:12 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:13 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 2603, season 2026
+2026-03-18 15:38:13 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:13 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 36, season 2026
+2026-03-18 15:38:14 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 2603, season 2026
+2026-03-18 15:38:15 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 25, season 2026
+2026-03-18 15:38:15 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:16 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 25, season 2026
+2026-03-18 15:38:17 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:18 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 25, season 2026
+2026-03-18 15:38:19 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Home stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:19 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 82, season 2026
+2026-03-18 15:38:19 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 1: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:20 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 82, season 2026
+2026-03-18 15:38:21 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 2: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:22 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN stats for team 82, season 2026
+2026-03-18 15:38:22 | DEBUG    | cbb_totals.src.pipeline.daily_pipeline | Away stats fetch attempt 3: 'avg_rebounds' is an invalid keyword argument for TeamSeasonStats
+2026-03-18 15:38:22 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 25, season 2026
+2026-03-18 15:38:23 | DEBUG    | cbb_totals.src.data.espn_adapter | Fetching ESPN game log for team 82, season 2026
+2026-03-18 15:38:24 | INFO     | cbb_totals.src.pipeline.daily_pipeline | Features built for 10/10 games.

@@ -1,0 +1,108 @@
+# ─────────────────────────────────────────────
+#  CBB Totals Model — Master Configuration
+# ─────────────────────────────────────────────
+
+database:
+  type: sqlite          # sqlite | postgres
+  sqlite_path: data/cbb_totals.db
+
+data_sources:
+  schedule:
+    primary: espn
+    fallback: []
+  team_stats:
+    primary: espn
+    fallback: []
+  odds:
+    primary: the_odds_api
+    books:
+      - draftkings
+      - fanduel
+      - betmgm
+      - pinnacle
+      - consensus
+    fallback: []
+
+espn:
+  base_url: "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball"
+  scoreboard_url: "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard"
+  teams_url: "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams"
+  request_delay: 0.5
+
+the_odds_api:
+  base_url: "https://api.the-odds-api.com/v4"
+  sport: basketball_ncaab
+  markets: totals
+  regions: us
+  odds_format: american
+
+torvik:
+  base_url: "https://barttorvik.com"
+  enabled: true
+
+model:
+  baseline_weight: 0.35
+  ml_weight: 0.65
+  league_avg_possessions: 68.5
+  league_avg_points_per_100: 105.0
+  min_games_for_features: 5
+  recent_form_windows: [3, 5, 10]
+
+  xgboost:
+    n_estimators: 400
+    max_depth: 5
+    learning_rate: 0.04
+    subsample: 0.8
+    colsample_bytree: 0.8
+    reg_alpha: 0.1
+    reg_lambda: 1.0
+
+  lightgbm:
+    n_estimators: 400
+    max_depth: 6
+    learning_rate: 0.04
+    num_leaves: 40
+    subsample: 0.8
+    colsample_bytree: 0.8
+    reg_alpha: 0.1
+    reg_lambda: 1.0
+
+  ridge:
+    alpha: 5.0
+
+  ensemble:
+    xgboost_weight: 0.40
+    lightgbm_weight: 0.40
+    ridge_weight: 0.20
+
+confidence:
+  edge_buckets: [0, 2, 4, 6, 8, 999]
+  data_completeness_weight: 0.25
+  model_agreement_weight: 0.35
+  edge_magnitude_weight: 0.25
+  line_movement_weight: 0.15
+  conservative_discount: 0.85
+
+output:
+  csv_dir: outputs/
+  top_n_console: 20
+  min_edge_display: 1.0
+  sort_by: abs_differential
+
+alerts:
+  enabled: true
+  threshold: 6.0
+  discord_enabled: false
+
+scheduler:
+  morning_run_time: "09:00"   # ET
+  midday_run_time:  "12:00"
+  evening_run_time: "17:00"
+  timezone: America/New_York
+
+backtest:
+  min_train_games: 300
+  validation_start: "2023-01-01"
+  edge_buckets: [2, 4, 6, 8]
+  flat_bet_unit: 100
+  vig_rate: -110
