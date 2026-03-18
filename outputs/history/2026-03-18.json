@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18 20:30 UTC",
+  "generated_at": "2026-03-18 23:02 UTC",
   "date": "2026-03-18",
   "game_count": 2,
   "games": [
@@ -16,14 +16,14 @@
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 162.0,
+      "market_total": 161.0,
       "sportsbook": "Consensus",
-      "over_odds": -110,
-      "under_odds": -110,
-      "differential": -19.5,
-      "abs_differential": 19.5,
+      "over_odds": -105,
+      "under_odds": -115,
+      "differential": -18.5,
+      "abs_differential": 18.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-03-18 20:30 UTC"
+      "run_timestamp": "2026-03-18 23:02 UTC"
     },
     {
       "game_id": "401856437",
@@ -32,20 +32,20 @@
       "home_team": "Lehigh Mountain Hawks",
       "game_time": "5:40 PM ET",
       "neutral_site": true,
-      "status": "scheduled",
+      "status": "live",
       "ensemble_total": 142.5,
       "predicted_away_score": 71.2,
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 142.5,
+      "market_total": 138.5,
       "sportsbook": "Consensus",
-      "over_odds": -105,
+      "over_odds": -115,
       "under_odds": -115,
-      "differential": 0.0,
-      "abs_differential": 0.0,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-03-18 20:30 UTC"
+      "differential": 4.0,
+      "abs_differential": 4.0,
+      "edge_side": "OVER",
+      "run_timestamp": "2026-03-18 23:02 UTC"
     }
   ]
 }
