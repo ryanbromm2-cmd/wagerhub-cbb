@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-03-18 20:30 UTC",
+  "date": "2026-03-18",
+  "game_count": 2,
+  "games": [
+    {
+      "game_id": "401856436",
+      "game_date": "2026-03-18",
+      "away_team": "Miami (OH) RedHawks",
+      "home_team": "SMU Mustangs",
+      "game_time": "8:15 PM ET",
+      "neutral_site": true,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 71.2,
+      "predicted_home_score": 71.2,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 162.0,
+      "sportsbook": "Consensus",
+      "over_odds": -110,
+      "under_odds": -110,
+      "differential": -19.5,
+      "abs_differential": 19.5,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-03-18 20:30 UTC"
+    },
+    {
+      "game_id": "401856437",
+      "game_date": "2026-03-18",
+      "away_team": "Prairie View A&M Panthers",
+      "home_team": "Lehigh Mountain Hawks",
+      "game_time": "5:40 PM ET",
+      "neutral_site": true,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 71.2,
+      "predicted_home_score": 71.2,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 142.5,
+      "sportsbook": "Consensus",
+      "over_odds": -105,
+      "under_odds": -115,
+      "differential": 0.0,
+      "abs_differential": 0.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-03-18 20:30 UTC"
+    }
+  ]
+}
