@@ -346,38 +346,47 @@ def get_db():
 @st.cache_data(ttl=300)
 def load_slate(game_date: str) -> tuple[pd.DataFrame, bool]:
     """
-    Returns (df, is_demo). Falls back to demo data when DB is empty or unavailable.
+    Returns (df, is_demo).
+    Primary:  outputs/today.json  written by pipeline.py
+    Fallback: demo data
     """
-    db = get_db()
-    df = pd.DataFrame()
+    # ── Try the JSON file written by pipeline.py ──────────────────────────
+    json_path = PROJECT_ROOT / "outputs" / "today.json"
+    if json_path.exists():
+        try:
+            import json
+            data = json.loads(json_path.read_text(encoding="utf-8"))
+            games = data.get("games", [])
+            if games:
+                # If the file is for a different date, only use it when
+                # the user is looking at today (avoids stale data on date nav)
+                file_date = data.get("date", "")
+                if file_date == game_date or game_date == date.today().strftime("%Y-%m-%d"):
+                    df = pd.DataFrame(games)
+                    # Ensure derived columns exist
+                    if "differential" not in df.columns and "ensemble_total" in df.columns and "market_total" in df.columns:
+                        df["differential"]     = df["ensemble_total"] - df["market_total"]
+                        df["abs_differential"] = df["differential"].abs()
+                        df["edge_side"]        = df["differential"].apply(
+                            lambda d: "OVER" if d > 0 else ("UNDER" if d < 0 else "PUSH") if pd.notna(d) else None
+                        )
+                    return df, False
+        except Exception:
+            pass
 
+    # ── Try database (legacy / local dev fallback) ────────────────────────
+    db = get_db()
     if db:
         try:
             projs = db.get_todays_projections(game_date) or []
             if projs:
                 df = pd.DataFrame(projs)
-                odds_raw = db.get_odds_for_date(game_date) or []
-                if odds_raw:
-                    odds_df = pd.DataFrame(odds_raw)
-                    odds_df = (
-                        odds_df
-                        .sort_values("sportsbook", key=lambda s: s.map({"consensus": 0}).fillna(1))
-                        .drop_duplicates("game_id")
-                    )
-                    merge_cols = [c for c in ["game_id", "market_total", "over_odds", "under_odds", "sportsbook"] if c in odds_df.columns]
-                    df = df.merge(odds_df[merge_cols], on="game_id", how="left")
-                if "ensemble_total" in df.columns and "market_total" in df.columns:
-                    df["differential"] = df["ensemble_total"] - df["market_total"]
-                    df["abs_differential"] = df["differential"].abs()
-                    df["edge_side"] = df["differential"].apply(
-                        lambda d: "OVER" if d > 0 else ("UNDER" if d < 0 else "PUSH") if pd.notna(d) else None
-                    )
                 if not df.empty:
                     return df, False
         except Exception:
             pass
 
-    # Fall back to demo data
+    # ── Demo data ─────────────────────────────────────────────────────────
     from dashboard.demo_data import get_demo_slate
     return pd.DataFrame(get_demo_slate(game_date)), True
 
