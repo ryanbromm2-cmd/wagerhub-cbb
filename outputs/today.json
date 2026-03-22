@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22 14:57 UTC",
+  "generated_at": "2026-03-22 17:54 UTC",
   "date": "2026-03-22",
   "game_count": 8,
   "games": [
@@ -23,7 +23,7 @@
       "differential": -22.0,
       "abs_differential": 22.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-03-22 14:57 UTC"
+      "run_timestamp": "2026-03-22 17:54 UTC"
     },
     {
       "game_id": "401856565",
@@ -38,14 +38,36 @@
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 153.5,
+      "market_total": 154.0,
       "sportsbook": "Consensus",
-      "over_odds": -108,
-      "under_odds": -112,
-      "differential": -11.0,
-      "abs_differential": 11.0,
+      "over_odds": -112,
+      "under_odds": -108,
+      "differential": -11.5,
+      "abs_differential": 11.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-03-22 14:57 UTC"
+      "run_timestamp": "2026-03-22 17:54 UTC"
+    },
+    {
+      "game_id": "401856564",
+      "game_date": "2026-03-22",
+      "away_team": "Miami Hurricanes",
+      "home_team": "Purdue Boilermakers",
+      "game_time": "11:10 AM ET",
+      "neutral_site": true,
+      "status": "live",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 71.2,
+      "predicted_home_score": 71.2,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 149.0,
+      "sportsbook": "Consensus",
+      "over_odds": -125,
+      "under_odds": -105,
+      "differential": -6.5,
+      "abs_differential": 6.5,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-03-22 17:54 UTC"
     },
     {
       "game_id": "401856559",
@@ -60,36 +82,14 @@
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 135.5,
+      "market_total": 136.5,
       "sportsbook": "Consensus",
-      "over_odds": -112,
-      "under_odds": -108,
-      "differential": 7.0,
-      "abs_differential": 7.0,
+      "over_odds": -115,
+      "under_odds": -105,
+      "differential": 6.0,
+      "abs_differential": 6.0,
       "edge_side": "OVER",
-      "run_timestamp": "2026-03-22 14:57 UTC"
-    },
-    {
-      "game_id": "401856564",
-      "game_date": "2026-03-22",
-      "away_team": "Miami Hurricanes",
-      "home_team": "Purdue Boilermakers",
-      "game_time": "11:10 AM ET",
-      "neutral_site": true,
-      "status": "scheduled",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 71.2,
-      "predicted_home_score": 71.2,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 147.5,
-      "sportsbook": "Consensus",
-      "over_odds": -110,
-      "under_odds": -110,
-      "differential": -5.0,
-      "abs_differential": 5.0,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-03-22 14:57 UTC"
+      "run_timestamp": "2026-03-22 17:54 UTC"
     },
     {
       "game_id": "401856562",
@@ -111,7 +111,7 @@
       "differential": 5.0,
       "abs_differential": 5.0,
       "edge_side": "OVER",
-      "run_timestamp": "2026-03-22 14:57 UTC"
+      "run_timestamp": "2026-03-22 17:54 UTC"
     },
     {
       "game_id": "401856561",
@@ -133,7 +133,7 @@
       "differential": -4.0,
       "abs_differential": 4.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-03-22 14:57 UTC"
+      "run_timestamp": "2026-03-22 17:54 UTC"
     },
     {
       "game_id": "401856563",
@@ -148,14 +148,14 @@
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 145.0,
+      "market_total": 145.5,
       "sportsbook": "Consensus",
-      "over_odds": -105,
-      "under_odds": -115,
-      "differential": -2.5,
-      "abs_differential": 2.5,
+      "over_odds": -110,
+      "under_odds": -110,
+      "differential": -3.0,
+      "abs_differential": 3.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-03-22 14:57 UTC"
+      "run_timestamp": "2026-03-22 17:54 UTC"
     },
     {
       "game_id": "401856558",
@@ -170,14 +170,14 @@
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 144.0,
+      "market_total": 145.0,
       "sportsbook": "Consensus",
-      "over_odds": -108,
-      "under_odds": -112,
-      "differential": -1.5,
-      "abs_differential": 1.5,
+      "over_odds": -110,
+      "under_odds": -110,
+      "differential": -2.5,
+      "abs_differential": 2.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-03-22 14:57 UTC"
+      "run_timestamp": "2026-03-22 17:54 UTC"
     }
   ]
 }
