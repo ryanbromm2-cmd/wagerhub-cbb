@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26 19:57 UTC",
+  "generated_at": "2026-03-26 23:00 UTC",
   "date": "2026-03-26",
   "game_count": 4,
   "games": [
@@ -16,14 +16,14 @@
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 160.0,
+      "market_total": 160.5,
       "sportsbook": "Consensus",
-      "over_odds": -115,
-      "under_odds": -105,
-      "differential": -17.5,
-      "abs_differential": 17.5,
+      "over_odds": -105,
+      "under_odds": -115,
+      "differential": -18.0,
+      "abs_differential": 18.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-03-26 19:57 UTC"
+      "run_timestamp": "2026-03-26 23:00 UTC"
     },
     {
       "game_id": "401856567",
@@ -40,12 +40,12 @@
       "confidence_score": 0.28,
       "market_total": 132.0,
       "sportsbook": "Consensus",
-      "over_odds": -115,
-      "under_odds": -105,
+      "over_odds": -105,
+      "under_odds": -115,
       "differential": 10.5,
       "abs_differential": 10.5,
       "edge_side": "OVER",
-      "run_timestamp": "2026-03-26 19:57 UTC"
+      "run_timestamp": "2026-03-26 23:00 UTC"
     },
     {
       "game_id": "401856568",
@@ -60,14 +60,14 @@
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 152.0,
+      "market_total": 151.0,
       "sportsbook": "Consensus",
       "over_odds": -112,
       "under_odds": -108,
-      "differential": -9.5,
-      "abs_differential": 9.5,
+      "differential": -8.5,
+      "abs_differential": 8.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-03-26 19:57 UTC"
+      "run_timestamp": "2026-03-26 23:00 UTC"
     },
     {
       "game_id": "401856566",
@@ -89,7 +89,7 @@
       "differential": 6.0,
       "abs_differential": 6.0,
       "edge_side": "OVER",
-      "run_timestamp": "2026-03-26 19:57 UTC"
+      "run_timestamp": "2026-03-26 23:00 UTC"
     }
   ]
 }
