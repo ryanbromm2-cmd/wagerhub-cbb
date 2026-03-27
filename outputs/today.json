@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27 16:38 UTC",
+  "generated_at": "2026-03-27 19:32 UTC",
   "date": "2026-03-27",
   "game_count": 4,
   "games": [
@@ -18,12 +18,12 @@
       "confidence_score": 0.28,
       "market_total": 164.0,
       "sportsbook": "Consensus",
-      "over_odds": -115,
-      "under_odds": -105,
+      "over_odds": -112,
+      "under_odds": -108,
       "differential": -21.5,
       "abs_differential": 21.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-03-27 16:38 UTC"
+      "run_timestamp": "2026-03-27 19:32 UTC"
     },
     {
       "game_id": "401856571",
@@ -45,29 +45,7 @@
       "differential": 5.5,
       "abs_differential": 5.5,
       "edge_side": "OVER",
-      "run_timestamp": "2026-03-27 16:38 UTC"
-    },
-    {
-      "game_id": "401856570",
-      "game_date": "2026-03-27",
-      "away_team": "St. John's Red Storm",
-      "home_team": "Duke Blue Devils",
-      "game_time": "6:10 PM ET",
-      "neutral_site": true,
-      "status": "scheduled",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 71.2,
-      "predicted_home_score": 71.2,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 139.0,
-      "sportsbook": "Consensus",
-      "over_odds": -112,
-      "under_odds": -108,
-      "differential": 3.5,
-      "abs_differential": 3.5,
-      "edge_side": "OVER",
-      "run_timestamp": "2026-03-27 16:38 UTC"
+      "run_timestamp": "2026-03-27 19:32 UTC"
     },
     {
       "game_id": "401856573",
@@ -89,7 +67,29 @@
       "differential": -3.5,
       "abs_differential": 3.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-03-27 16:38 UTC"
+      "run_timestamp": "2026-03-27 19:32 UTC"
+    },
+    {
+      "game_id": "401856570",
+      "game_date": "2026-03-27",
+      "away_team": "St. John's Red Storm",
+      "home_team": "Duke Blue Devils",
+      "game_time": "6:10 PM ET",
+      "neutral_site": true,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 71.2,
+      "predicted_home_score": 71.2,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 139.5,
+      "sportsbook": "Consensus",
+      "over_odds": -108,
+      "under_odds": -112,
+      "differential": 3.0,
+      "abs_differential": 3.0,
+      "edge_side": "OVER",
+      "run_timestamp": "2026-03-27 19:32 UTC"
     }
   ]
 }
