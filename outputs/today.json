@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29 18:03 UTC",
+  "generated_at": "2026-03-29 23:05 UTC",
   "date": "2026-03-29",
   "game_count": 2,
   "games": [
@@ -10,20 +10,20 @@
       "home_team": "Duke Blue Devils",
       "game_time": "4:05 PM ET",
       "neutral_site": true,
-      "status": "scheduled",
+      "status": "live",
       "ensemble_total": 142.5,
       "predicted_away_score": 71.2,
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 136.0,
+      "market_total": 148.0,
       "sportsbook": "Consensus",
-      "over_odds": -112,
-      "under_odds": -108,
-      "differential": 6.5,
-      "abs_differential": 6.5,
-      "edge_side": "OVER",
-      "run_timestamp": "2026-03-29 18:03 UTC"
+      "over_odds": -115,
+      "under_odds": -115,
+      "differential": -5.5,
+      "abs_differential": 5.5,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-03-29 23:05 UTC"
     },
     {
       "game_id": "401856576",
@@ -32,20 +32,20 @@
       "home_team": "Michigan Wolverines",
       "game_time": "1:15 PM ET",
       "neutral_site": true,
-      "status": "scheduled",
+      "status": "live",
       "ensemble_total": 142.5,
       "predicted_away_score": 71.2,
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 146.0,
-      "sportsbook": "Consensus",
-      "over_odds": -105,
-      "under_odds": -115,
-      "differential": -3.5,
-      "abs_differential": 3.5,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-03-29 18:03 UTC"
+      "market_total": null,
+      "sportsbook": null,
+      "over_odds": null,
+      "under_odds": null,
+      "differential": null,
+      "abs_differential": null,
+      "edge_side": null,
+      "run_timestamp": "2026-03-29 23:05 UTC"
     }
   ]
 }
