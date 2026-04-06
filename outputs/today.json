@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06 19:56 UTC",
+  "generated_at": "2026-04-06 23:53 UTC",
   "date": "2026-04-06",
   "game_count": 1,
   "games": [
@@ -18,12 +18,12 @@
       "confidence_score": 0.28,
       "market_total": 146.5,
       "sportsbook": "Consensus",
-      "over_odds": -108,
-      "under_odds": -112,
+      "over_odds": -112,
+      "under_odds": -108,
       "differential": -4.0,
       "abs_differential": 4.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-04-06 19:56 UTC"
+      "run_timestamp": "2026-04-06 23:53 UTC"
     }
   ]
 }
