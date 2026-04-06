@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06 16:10 UTC",
+  "generated_at": "2026-04-06 19:56 UTC",
   "date": "2026-04-06",
   "game_count": 1,
   "games": [
@@ -16,14 +16,14 @@
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 145.5,
+      "market_total": 146.5,
       "sportsbook": "Consensus",
       "over_odds": -108,
       "under_odds": -112,
-      "differential": -3.0,
-      "abs_differential": 3.0,
+      "differential": -4.0,
+      "abs_differential": 4.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-04-06 16:10 UTC"
+      "run_timestamp": "2026-04-06 19:56 UTC"
     }
   ]
 }
