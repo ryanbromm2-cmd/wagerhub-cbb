@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-10-31 20:24 UTC",
-  "date": "2026-10-31",
-  "game_count": 0,
-  "games": []
+  "generated_at": "2026-11-01 00:52 UTC",
+  "date": "2026-11-01",
+  "game_count": 2,
+  "games": [
+    {
+      "game_id": "401920982",
+      "game_date": "2026-11-01",
+      "away_team": "Notre Dame Fighting Irish",
+      "home_team": "Villanova Wildcats",
+      "game_time": "9:30 AM ET",
+      "neutral_site": true,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 71.2,
+      "predicted_home_score": 71.2,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": null,
+      "sportsbook": null,
+      "over_odds": null,
+      "under_odds": null,
+      "differential": null,
+      "abs_differential": null,
+      "edge_side": null,
+      "run_timestamp": "2026-11-01 00:52 UTC"
+    },
+    {
+      "game_id": "401920409",
+      "game_date": "2026-11-01",
+      "away_team": "Liberty Flames",
+      "home_team": "High Point Panthers",
+      "game_time": "11:59 PM ET",
+      "neutral_site": true,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 71.2,
+      "predicted_home_score": 71.2,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": null,
+      "sportsbook": null,
+      "over_odds": null,
+      "under_odds": null,
+      "differential": null,
+      "abs_differential": null,
+      "edge_side": null,
+      "run_timestamp": "2026-11-01 00:52 UTC"
+    }
+  ]
 }
