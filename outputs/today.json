@@ -1,8 +1,30 @@
 {
-  "generated_at": "2026-11-02 22:32 UTC",
+  "generated_at": "2026-11-02 23:48 UTC",
   "date": "2026-11-02",
   "game_count": 18,
   "games": [
+    {
+      "game_id": "401925733",
+      "game_date": "2026-11-02",
+      "away_team": "Oakland Golden Grizzlies",
+      "home_team": "Michigan Wolverines",
+      "game_time": "6:00 PM ET",
+      "neutral_site": false,
+      "status": "live",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 163.0,
+      "sportsbook": "Consensus",
+      "over_odds": -105,
+      "under_odds": -125,
+      "differential": -20.5,
+      "abs_differential": 20.5,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-02 23:48 UTC"
+    },
     {
       "game_id": "401918947",
       "game_date": "2026-11-02",
@@ -23,7 +45,7 @@
       "differential": -17.0,
       "abs_differential": 17.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
     },
     {
       "game_id": "401921104",
@@ -45,7 +67,29 @@
       "differential": -16.5,
       "abs_differential": 16.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
+    },
+    {
+      "game_id": "401926771",
+      "game_date": "2026-11-02",
+      "away_team": "Milwaukee Panthers",
+      "home_team": "USC Trojans",
+      "game_time": "10:30 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 158.5,
+      "sportsbook": "Consensus",
+      "over_odds": -115,
+      "under_odds": -105,
+      "differential": -16.0,
+      "abs_differential": 16.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-02 23:48 UTC"
     },
     {
       "game_id": "401921036",
@@ -67,73 +111,7 @@
       "differential": -15.5,
       "abs_differential": 15.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
-    },
-    {
-      "game_id": "401926771",
-      "game_date": "2026-11-02",
-      "away_team": "Milwaukee Panthers",
-      "home_team": "USC Trojans",
-      "game_time": "10:30 PM ET",
-      "neutral_site": false,
-      "status": "scheduled",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 69.5,
-      "predicted_home_score": 73.0,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 158.0,
-      "sportsbook": "Consensus",
-      "over_odds": -115,
-      "under_odds": -105,
-      "differential": -15.5,
-      "abs_differential": 15.5,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
-    },
-    {
-      "game_id": "401925733",
-      "game_date": "2026-11-02",
-      "away_team": "Oakland Golden Grizzlies",
-      "home_team": "Michigan Wolverines",
-      "game_time": "6:00 PM ET",
-      "neutral_site": false,
-      "status": "scheduled",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 69.5,
-      "predicted_home_score": 73.0,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 157.5,
-      "sportsbook": "Consensus",
-      "over_odds": -105,
-      "under_odds": -115,
-      "differential": -15.0,
-      "abs_differential": 15.0,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
-    },
-    {
-      "game_id": "401909562",
-      "game_date": "2026-11-02",
-      "away_team": "Army Black Knights",
-      "home_team": "Duke Blue Devils",
-      "game_time": "6:30 PM ET",
-      "neutral_site": false,
-      "status": "scheduled",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 69.5,
-      "predicted_home_score": 73.0,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 157.5,
-      "sportsbook": "Consensus",
-      "over_odds": -105,
-      "under_odds": -115,
-      "differential": -15.0,
-      "abs_differential": 15.0,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
     },
     {
       "game_id": "401909771",
@@ -148,14 +126,36 @@
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
+      "market_total": 157.5,
+      "sportsbook": "Consensus",
+      "over_odds": -110,
+      "under_odds": -110,
+      "differential": -15.0,
+      "abs_differential": 15.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-02 23:48 UTC"
+    },
+    {
+      "game_id": "401920679",
+      "game_date": "2026-11-02",
+      "away_team": "Monmouth Hawks",
+      "home_team": "St. John's Red Storm",
+      "game_time": "6:30 PM ET",
+      "neutral_site": false,
+      "status": "live",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
       "market_total": 157.0,
       "sportsbook": "Consensus",
-      "over_odds": -105,
-      "under_odds": -115,
+      "over_odds": -120,
+      "under_odds": -110,
       "differential": -14.5,
       "abs_differential": 14.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
     },
     {
       "game_id": "401913525",
@@ -177,29 +177,7 @@
       "differential": -14.0,
       "abs_differential": 14.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
-    },
-    {
-      "game_id": "401920679",
-      "game_date": "2026-11-02",
-      "away_team": "Monmouth Hawks",
-      "home_team": "St. John's Red Storm",
-      "game_time": "6:30 PM ET",
-      "neutral_site": false,
-      "status": "scheduled",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 69.5,
-      "predicted_home_score": 73.0,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 155.0,
-      "sportsbook": "Consensus",
-      "over_odds": -105,
-      "under_odds": -115,
-      "differential": -12.5,
-      "abs_differential": 12.5,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
     },
     {
       "game_id": "401909738",
@@ -221,7 +199,7 @@
       "differential": -11.5,
       "abs_differential": 11.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
     },
     {
       "game_id": "401924856",
@@ -243,7 +221,29 @@
       "differential": -10.5,
       "abs_differential": 10.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
+    },
+    {
+      "game_id": "401909562",
+      "game_date": "2026-11-02",
+      "away_team": "Army Black Knights",
+      "home_team": "Duke Blue Devils",
+      "game_time": "6:30 PM ET",
+      "neutral_site": false,
+      "status": "live",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 150.0,
+      "sportsbook": "Consensus",
+      "over_odds": -115,
+      "under_odds": -115,
+      "differential": -7.5,
+      "abs_differential": 7.5,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-02 23:48 UTC"
     },
     {
       "game_id": "401906863",
@@ -265,7 +265,7 @@
       "differential": -7.0,
       "abs_differential": 7.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
     },
     {
       "game_id": "401911390",
@@ -287,7 +287,7 @@
       "differential": -5.0,
       "abs_differential": 5.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
     },
     {
       "game_id": "401925811",
@@ -309,7 +309,7 @@
       "differential": -5.0,
       "abs_differential": 5.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
     },
     {
       "game_id": "401916313",
@@ -331,7 +331,7 @@
       "differential": -5.0,
       "abs_differential": 5.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
     },
     {
       "game_id": "401909784",
@@ -353,7 +353,7 @@
       "differential": -2.5,
       "abs_differential": 2.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
     },
     {
       "game_id": "401906769",
@@ -362,7 +362,7 @@
       "home_team": "Florida Gators",
       "game_time": "6:00 PM ET",
       "neutral_site": true,
-      "status": "scheduled",
+      "status": "live",
       "ensemble_total": 142.5,
       "predicted_away_score": 71.2,
       "predicted_home_score": 71.2,
@@ -375,7 +375,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
     },
     {
       "game_id": "401921704",
@@ -397,7 +397,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-02 22:32 UTC"
+      "run_timestamp": "2026-11-02 23:48 UTC"
     }
   ]
 }
