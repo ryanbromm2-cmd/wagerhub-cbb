@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03 20:22 UTC",
+  "generated_at": "2026-11-03 22:13 UTC",
   "date": "2026-11-03",
   "game_count": 5,
   "games": [
@@ -18,12 +18,12 @@
       "confidence_score": 0.28,
       "market_total": 172.0,
       "sportsbook": "Consensus",
-      "over_odds": -105,
-      "under_odds": -115,
+      "over_odds": -108,
+      "under_odds": -112,
       "differential": -29.5,
       "abs_differential": 29.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-03 20:22 UTC"
+      "run_timestamp": "2026-11-03 22:13 UTC"
     },
     {
       "game_id": "401929372",
@@ -45,7 +45,7 @@
       "differential": -24.5,
       "abs_differential": 24.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-03 20:22 UTC"
+      "run_timestamp": "2026-11-03 22:13 UTC"
     },
     {
       "game_id": "401921801",
@@ -67,7 +67,7 @@
       "differential": -16.0,
       "abs_differential": 16.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-03 20:22 UTC"
+      "run_timestamp": "2026-11-03 22:13 UTC"
     },
     {
       "game_id": "401906848",
@@ -89,7 +89,7 @@
       "differential": -13.0,
       "abs_differential": 13.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-03 20:22 UTC"
+      "run_timestamp": "2026-11-03 22:13 UTC"
     },
     {
       "game_id": "401920422",
@@ -104,14 +104,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 142.0,
+      "market_total": 142.5,
       "sportsbook": "Consensus",
       "over_odds": -112,
       "under_odds": -108,
-      "differential": 0.5,
-      "abs_differential": 0.5,
-      "edge_side": "OVER",
-      "run_timestamp": "2026-11-03 20:22 UTC"
+      "differential": 0.0,
+      "abs_differential": 0.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-03 22:13 UTC"
     }
   ]
 }
