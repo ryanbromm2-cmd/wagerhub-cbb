@@ -1,8 +1,74 @@
 {
-  "generated_at": "2026-11-04 02:03 UTC",
+  "generated_at": "2026-11-04 20:38 UTC",
   "date": "2026-11-04",
   "game_count": 26,
   "games": [
+    {
+      "game_id": "401928811",
+      "game_date": "2026-11-04",
+      "away_team": "Northern Kentucky Norse",
+      "home_team": "South Dakota Coyotes",
+      "game_time": "8:00 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 162.5,
+      "sportsbook": "Consensus",
+      "over_odds": -110,
+      "under_odds": -110,
+      "differential": -20.0,
+      "abs_differential": 20.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-04 20:38 UTC"
+    },
+    {
+      "game_id": "401917514",
+      "game_date": "2026-11-04",
+      "away_team": "Queens University Royals",
+      "home_team": "Loyola Marymount Lions",
+      "game_time": "10:00 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 161.5,
+      "sportsbook": "Consensus",
+      "over_odds": -110,
+      "under_odds": -110,
+      "differential": -19.0,
+      "abs_differential": 19.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-04 20:38 UTC"
+    },
+    {
+      "game_id": "401917513",
+      "game_date": "2026-11-04",
+      "away_team": "Milwaukee Panthers",
+      "home_team": "Santa Clara Broncos",
+      "game_time": "10:00 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 161.5,
+      "sportsbook": "Consensus",
+      "over_odds": -112,
+      "under_odds": -108,
+      "differential": -19.0,
+      "abs_differential": 19.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-04 20:38 UTC"
+    },
     {
       "game_id": "401919028",
       "game_date": "2026-11-04",
@@ -23,73 +89,7 @@
       "differential": -18.5,
       "abs_differential": 18.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-04 02:03 UTC"
-    },
-    {
-      "game_id": "401917513",
-      "game_date": "2026-11-04",
-      "away_team": "Milwaukee Panthers",
-      "home_team": "Santa Clara Broncos",
-      "game_time": "10:00 PM ET",
-      "neutral_site": false,
-      "status": "scheduled",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 69.5,
-      "predicted_home_score": 73.0,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 159.5,
-      "sportsbook": "Consensus",
-      "over_odds": -110,
-      "under_odds": -110,
-      "differential": -17.0,
-      "abs_differential": 17.0,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-11-04 02:03 UTC"
-    },
-    {
-      "game_id": "401928811",
-      "game_date": "2026-11-04",
-      "away_team": "Northern Kentucky Norse",
-      "home_team": "South Dakota Coyotes",
-      "game_time": "8:00 PM ET",
-      "neutral_site": false,
-      "status": "scheduled",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 69.5,
-      "predicted_home_score": 73.0,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 159.0,
-      "sportsbook": "Consensus",
-      "over_odds": -112,
-      "under_odds": -108,
-      "differential": -16.5,
-      "abs_differential": 16.5,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-11-04 02:03 UTC"
-    },
-    {
-      "game_id": "401917514",
-      "game_date": "2026-11-04",
-      "away_team": "Queens University Royals",
-      "home_team": "Loyola Marymount Lions",
-      "game_time": "10:00 PM ET",
-      "neutral_site": false,
-      "status": "scheduled",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 69.5,
-      "predicted_home_score": 73.0,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 158.0,
-      "sportsbook": "Consensus",
-      "over_odds": -105,
-      "under_odds": -115,
-      "differential": -15.5,
-      "abs_differential": 15.5,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401918052",
@@ -104,14 +104,36 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 157.0,
+      "market_total": 157.5,
       "sportsbook": "Consensus",
-      "over_odds": -115,
-      "under_odds": -105,
-      "differential": -14.5,
-      "abs_differential": 14.5,
+      "over_odds": -105,
+      "under_odds": -115,
+      "differential": -15.0,
+      "abs_differential": 15.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
+    },
+    {
+      "game_id": "401902276",
+      "game_date": "2026-11-04",
+      "away_team": "Fairleigh Dickinson Knights",
+      "home_team": "Butler Bulldogs",
+      "game_time": "7:00 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 156.0,
+      "sportsbook": "Consensus",
+      "over_odds": -108,
+      "under_odds": -112,
+      "differential": -13.5,
+      "abs_differential": 13.5,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401920798",
@@ -126,20 +148,20 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 152.0,
+      "market_total": 151.5,
       "sportsbook": "Consensus",
-      "over_odds": -105,
-      "under_odds": -115,
-      "differential": -9.5,
-      "abs_differential": 9.5,
+      "over_odds": -110,
+      "under_odds": -110,
+      "differential": -9.0,
+      "abs_differential": 9.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
-      "game_id": "401902276",
+      "game_id": "401920191",
       "game_date": "2026-11-04",
-      "away_team": "Fairleigh Dickinson Knights",
-      "home_team": "Butler Bulldogs",
+      "away_team": "Longwood Lancers",
+      "home_team": "Saint Joseph's Hawks",
       "game_time": "7:00 PM ET",
       "neutral_site": false,
       "status": "scheduled",
@@ -155,51 +177,7 @@
       "differential": -8.5,
       "abs_differential": 8.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-04 02:03 UTC"
-    },
-    {
-      "game_id": "401920410",
-      "game_date": "2026-11-04",
-      "away_team": "Maryland Eastern Shore Hawks",
-      "home_team": "High Point Panthers",
-      "game_time": "7:00 PM ET",
-      "neutral_site": false,
-      "status": "scheduled",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 69.5,
-      "predicted_home_score": 73.0,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 150.0,
-      "sportsbook": "Consensus",
-      "over_odds": -115,
-      "under_odds": -105,
-      "differential": -7.5,
-      "abs_differential": 7.5,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-11-04 02:03 UTC"
-    },
-    {
-      "game_id": "401920191",
-      "game_date": "2026-11-04",
-      "away_team": "Longwood Lancers",
-      "home_team": "Saint Joseph's Hawks",
-      "game_time": "7:00 PM ET",
-      "neutral_site": false,
-      "status": "scheduled",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 69.5,
-      "predicted_home_score": 73.0,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 149.5,
-      "sportsbook": "Consensus",
-      "over_odds": -108,
-      "under_odds": -112,
-      "differential": -7.0,
-      "abs_differential": 7.0,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401917512",
@@ -214,14 +192,36 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 149.5,
+      "market_total": 148.0,
+      "sportsbook": "Consensus",
+      "over_odds": -105,
+      "under_odds": -115,
+      "differential": -5.5,
+      "abs_differential": 5.5,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-04 20:38 UTC"
+    },
+    {
+      "game_id": "401920410",
+      "game_date": "2026-11-04",
+      "away_team": "Maryland Eastern Shore Hawks",
+      "home_team": "High Point Panthers",
+      "game_time": "7:00 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 147.5,
       "sportsbook": "Consensus",
       "over_odds": -108,
       "under_odds": -112,
-      "differential": -7.0,
-      "abs_differential": 7.0,
+      "differential": -5.0,
+      "abs_differential": 5.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401920232",
@@ -243,7 +243,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401929450",
@@ -265,7 +265,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401929438",
@@ -287,7 +287,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401928853",
@@ -309,7 +309,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401926142",
@@ -331,7 +331,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401922290",
@@ -353,7 +353,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401927361",
@@ -375,7 +375,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401926214",
@@ -397,7 +397,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401926151",
@@ -419,7 +419,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401926111",
@@ -441,7 +441,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401917977",
@@ -463,7 +463,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401925893",
@@ -485,7 +485,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401923391",
@@ -507,7 +507,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401929171",
@@ -529,7 +529,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401925939",
@@ -551,7 +551,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     },
     {
       "game_id": "401922030",
@@ -573,7 +573,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-04 02:03 UTC"
+      "run_timestamp": "2026-11-04 20:38 UTC"
     }
   ]
 }
