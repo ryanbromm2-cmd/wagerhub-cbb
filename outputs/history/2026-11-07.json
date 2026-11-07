@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-07 01:44 UTC",
+  "date": "2026-11-07",
+  "game_count": 2,
+  "games": [
+    {
+      "game_id": "401928788",
+      "game_date": "2026-11-07",
+      "away_team": "New Mexico State Aggies",
+      "home_team": "Gonzaga Bulldogs",
+      "game_time": "5:00 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 161.5,
+      "sportsbook": "Consensus",
+      "over_odds": -110,
+      "under_odds": -120,
+      "differential": -19.0,
+      "abs_differential": 19.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-07 01:44 UTC"
+    },
+    {
+      "game_id": "401918948",
+      "game_date": "2026-11-07",
+      "away_team": "Morehead State Eagles",
+      "home_team": "Louisville Cardinals",
+      "game_time": "12:00 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 150.5,
+      "sportsbook": "Consensus",
+      "over_odds": -108,
+      "under_odds": -112,
+      "differential": -8.0,
+      "abs_differential": 8.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-07 01:44 UTC"
+    }
+  ]
+}
