@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10 00:34 UTC",
+  "generated_at": "2026-11-10 04:00 UTC",
   "date": "2026-11-10",
   "game_count": 8,
   "games": [
@@ -16,14 +16,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 178.5,
+      "market_total": 179.5,
       "sportsbook": "Fanduel",
       "over_odds": -115,
       "under_odds": -105,
-      "differential": -36.0,
-      "abs_differential": 36.0,
+      "differential": -37.0,
+      "abs_differential": 37.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-10 00:34 UTC"
+      "run_timestamp": "2026-11-10 04:00 UTC"
     },
     {
       "game_id": "401906771",
@@ -38,14 +38,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 164.5,
+      "market_total": 165.0,
       "sportsbook": "Consensus",
       "over_odds": -110,
       "under_odds": -110,
-      "differential": -22.0,
-      "abs_differential": 22.0,
+      "differential": -22.5,
+      "abs_differential": 22.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-10 00:34 UTC"
+      "run_timestamp": "2026-11-10 04:00 UTC"
     },
     {
       "game_id": "401913527",
@@ -60,14 +60,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 161.0,
+      "market_total": 164.0,
       "sportsbook": "Consensus",
       "over_odds": -115,
       "under_odds": -105,
-      "differential": -18.5,
-      "abs_differential": 18.5,
+      "differential": -21.5,
+      "abs_differential": 21.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-10 00:34 UTC"
+      "run_timestamp": "2026-11-10 04:00 UTC"
     },
     {
       "game_id": "401918987",
@@ -82,14 +82,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 158.5,
+      "market_total": 160.0,
       "sportsbook": "Consensus",
       "over_odds": -115,
       "under_odds": -105,
-      "differential": -16.0,
-      "abs_differential": 16.0,
+      "differential": -17.5,
+      "abs_differential": 17.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-10 00:34 UTC"
+      "run_timestamp": "2026-11-10 04:00 UTC"
     },
     {
       "game_id": "401909740",
@@ -104,14 +104,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 155.5,
+      "market_total": 156.5,
       "sportsbook": "Consensus",
-      "over_odds": -110,
-      "under_odds": -110,
-      "differential": -13.0,
-      "abs_differential": 13.0,
+      "over_odds": -115,
+      "under_odds": -105,
+      "differential": -14.0,
+      "abs_differential": 14.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-10 00:34 UTC"
+      "run_timestamp": "2026-11-10 04:00 UTC"
     },
     {
       "game_id": "401909786",
@@ -133,7 +133,7 @@
       "differential": -13.0,
       "abs_differential": 13.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-10 00:34 UTC"
+      "run_timestamp": "2026-11-10 04:00 UTC"
     },
     {
       "game_id": "401909564",
@@ -148,14 +148,14 @@
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 149.0,
+      "market_total": 148.5,
       "sportsbook": "Consensus",
-      "over_odds": -110,
-      "under_odds": -110,
-      "differential": -6.5,
-      "abs_differential": 6.5,
+      "over_odds": -108,
+      "under_odds": -112,
+      "differential": -6.0,
+      "abs_differential": 6.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-10 00:34 UTC"
+      "run_timestamp": "2026-11-10 04:00 UTC"
     },
     {
       "game_id": "401920425",
@@ -177,7 +177,7 @@
       "differential": -6.0,
       "abs_differential": 6.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-10 00:34 UTC"
+      "run_timestamp": "2026-11-10 04:00 UTC"
     }
   ]
 }
