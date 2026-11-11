@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11 21:01 UTC",
+  "generated_at": "2026-11-11 23:21 UTC",
   "date": "2026-11-11",
   "game_count": 7,
   "games": [
@@ -16,14 +16,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 161.5,
+      "market_total": 160.5,
       "sportsbook": "Consensus",
       "over_odds": -110,
       "under_odds": -110,
-      "differential": -19.0,
-      "abs_differential": 19.0,
+      "differential": -18.0,
+      "abs_differential": 18.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-11 21:01 UTC"
+      "run_timestamp": "2026-11-11 23:21 UTC"
     },
     {
       "game_id": "401920680",
@@ -45,29 +45,7 @@
       "differential": -16.0,
       "abs_differential": 16.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-11 21:01 UTC"
-    },
-    {
-      "game_id": "401930177",
-      "game_date": "2026-11-11",
-      "away_team": "Arkansas-Pine Bluff Golden Lions",
-      "home_team": "UCLA Bruins",
-      "game_time": "9:00 PM ET",
-      "neutral_site": false,
-      "status": "scheduled",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 69.5,
-      "predicted_home_score": 73.0,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 158.0,
-      "sportsbook": "Consensus",
-      "over_odds": -115,
-      "under_odds": -105,
-      "differential": -15.5,
-      "abs_differential": 15.5,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-11-11 21:01 UTC"
+      "run_timestamp": "2026-11-11 23:21 UTC"
     },
     {
       "game_id": "401909524",
@@ -82,14 +60,36 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 157.0,
+      "market_total": 158.0,
       "sportsbook": "Consensus",
-      "over_odds": -105,
-      "under_odds": -115,
-      "differential": -14.5,
-      "abs_differential": 14.5,
+      "over_odds": -108,
+      "under_odds": -112,
+      "differential": -15.5,
+      "abs_differential": 15.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-11 21:01 UTC"
+      "run_timestamp": "2026-11-11 23:21 UTC"
+    },
+    {
+      "game_id": "401930177",
+      "game_date": "2026-11-11",
+      "away_team": "Arkansas-Pine Bluff Golden Lions",
+      "home_team": "UCLA Bruins",
+      "game_time": "9:00 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 156.5,
+      "sportsbook": "Consensus",
+      "over_odds": -110,
+      "under_odds": -110,
+      "differential": -14.0,
+      "abs_differential": 14.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-11 23:21 UTC"
     },
     {
       "game_id": "401928824",
@@ -111,7 +111,7 @@
       "differential": -13.5,
       "abs_differential": 13.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-11 21:01 UTC"
+      "run_timestamp": "2026-11-11 23:21 UTC"
     },
     {
       "game_id": "401926062",
@@ -133,7 +133,7 @@
       "differential": -10.5,
       "abs_differential": 10.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-11 21:01 UTC"
+      "run_timestamp": "2026-11-11 23:21 UTC"
     },
     {
       "game_id": "401925702",
@@ -148,14 +148,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 136.0,
+      "market_total": 136.5,
       "sportsbook": "Consensus",
-      "over_odds": -115,
-      "under_odds": -105,
-      "differential": 6.5,
-      "abs_differential": 6.5,
+      "over_odds": -108,
+      "under_odds": -112,
+      "differential": 6.0,
+      "abs_differential": 6.0,
       "edge_side": "OVER",
-      "run_timestamp": "2026-11-11 21:01 UTC"
+      "run_timestamp": "2026-11-11 23:21 UTC"
     }
   ]
 }
