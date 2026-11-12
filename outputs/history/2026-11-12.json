@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-11-12 02:46 UTC",
+  "date": "2026-11-12",
+  "game_count": 1,
+  "games": [
+    {
+      "game_id": "401921741",
+      "game_date": "2026-11-12",
+      "away_team": "Montana State Bobcats",
+      "home_team": "BYU Cougars",
+      "game_time": "9:00 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 150.0,
+      "sportsbook": "Consensus",
+      "over_odds": -105,
+      "under_odds": -125,
+      "differential": -7.5,
+      "abs_differential": 7.5,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-12 02:46 UTC"
+    }
+  ]
+}
