@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12 21:16 UTC",
+  "generated_at": "2026-11-12 22:37 UTC",
   "date": "2026-11-12",
   "game_count": 1,
   "games": [
@@ -23,7 +23,7 @@
       "differential": -20.0,
       "abs_differential": 20.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-12 21:16 UTC"
+      "run_timestamp": "2026-11-12 22:37 UTC"
     }
   ]
 }
