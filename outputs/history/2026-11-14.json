@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-14 02:09 UTC",
+  "date": "2026-11-14",
+  "game_count": 2,
+  "games": [
+    {
+      "game_id": "401921689",
+      "game_date": "2026-11-14",
+      "away_team": "LSU Tigers",
+      "home_team": "Gonzaga Bulldogs",
+      "game_time": "3:30 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 161.5,
+      "sportsbook": "Consensus",
+      "over_odds": -115,
+      "under_odds": -105,
+      "differential": -19.0,
+      "abs_differential": 19.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-14 02:09 UTC"
+    },
+    {
+      "game_id": "401919847",
+      "game_date": "2026-11-14",
+      "away_team": "Stonehill Skyhawks",
+      "home_team": "Texas Tech Red Raiders",
+      "game_time": "1:00 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": null,
+      "sportsbook": null,
+      "over_odds": null,
+      "under_odds": null,
+      "differential": null,
+      "abs_differential": null,
+      "edge_side": null,
+      "run_timestamp": "2026-11-14 02:09 UTC"
+    }
+  ]
+}
