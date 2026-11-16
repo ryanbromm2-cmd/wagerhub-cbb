@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-16 01:44 UTC",
+  "date": "2026-11-16",
+  "game_count": 2,
+  "games": [
+    {
+      "game_id": "401921804",
+      "game_date": "2026-11-16",
+      "away_team": "Grambling Tigers",
+      "home_team": "Kentucky Wildcats",
+      "game_time": "7:00 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 159.5,
+      "sportsbook": "Consensus",
+      "over_odds": -105,
+      "under_odds": -115,
+      "differential": -17.0,
+      "abs_differential": 17.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-16 01:44 UTC"
+    },
+    {
+      "game_id": "401924265",
+      "game_date": "2026-11-16",
+      "away_team": "Long Beach State Beach",
+      "home_team": "UCLA Bruins",
+      "game_time": "10:00 PM ET",
+      "neutral_site": false,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 148.0,
+      "sportsbook": "Consensus",
+      "over_odds": -108,
+      "under_odds": -112,
+      "differential": -5.5,
+      "abs_differential": 5.5,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-16 01:44 UTC"
+    }
+  ]
+}
