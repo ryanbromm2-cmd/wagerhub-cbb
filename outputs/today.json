@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22 02:00 UTC",
+  "generated_at": "2026-11-22 20:32 UTC",
   "date": "2026-11-22",
   "game_count": 4,
   "games": [
@@ -10,20 +10,20 @@
       "home_team": "Texas Longhorns",
       "game_time": "3:00 PM ET",
       "neutral_site": false,
-      "status": "scheduled",
+      "status": "live",
       "ensemble_total": 142.5,
       "predicted_away_score": 69.5,
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 149.0,
+      "market_total": 154.0,
       "sportsbook": "Consensus",
-      "over_odds": -110,
-      "under_odds": -110,
-      "differential": -6.5,
-      "abs_differential": 6.5,
+      "over_odds": -115,
+      "under_odds": -115,
+      "differential": -11.5,
+      "abs_differential": 11.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-22 02:00 UTC"
+      "run_timestamp": "2026-11-22 20:32 UTC"
     },
     {
       "game_id": "401920905",
@@ -38,14 +38,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 146.5,
+      "market_total": 145.5,
       "sportsbook": "Consensus",
-      "over_odds": -110,
-      "under_odds": -110,
-      "differential": -4.0,
-      "abs_differential": 4.0,
+      "over_odds": -105,
+      "under_odds": -115,
+      "differential": -3.0,
+      "abs_differential": 3.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-22 02:00 UTC"
+      "run_timestamp": "2026-11-22 20:32 UTC"
     },
     {
       "game_id": "401926774",
@@ -60,14 +60,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 146.0,
+      "market_total": 145.5,
       "sportsbook": "Consensus",
-      "over_odds": -115,
-      "under_odds": -105,
-      "differential": -3.5,
-      "abs_differential": 3.5,
+      "over_odds": -108,
+      "under_odds": -112,
+      "differential": -3.0,
+      "abs_differential": 3.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-22 02:00 UTC"
+      "run_timestamp": "2026-11-22 20:32 UTC"
     },
     {
       "game_id": "401902281",
@@ -76,7 +76,7 @@
       "home_team": "Butler Bulldogs",
       "game_time": "12:00 PM ET",
       "neutral_site": true,
-      "status": "scheduled",
+      "status": "live",
       "ensemble_total": 142.5,
       "predicted_away_score": 71.2,
       "predicted_home_score": 71.2,
@@ -89,7 +89,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-22 02:00 UTC"
+      "run_timestamp": "2026-11-22 20:32 UTC"
     }
   ]
 }
