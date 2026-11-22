@@ -1,30 +1,8 @@
 {
-  "generated_at": "2026-11-22 20:32 UTC",
+  "generated_at": "2026-11-22 22:19 UTC",
   "date": "2026-11-22",
   "game_count": 4,
   "games": [
-    {
-      "game_id": "401906868",
-      "game_date": "2026-11-22",
-      "away_team": "Southern Indiana Screaming Eagles",
-      "home_team": "Texas Longhorns",
-      "game_time": "3:00 PM ET",
-      "neutral_site": false,
-      "status": "live",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 69.5,
-      "predicted_home_score": 73.0,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 154.0,
-      "sportsbook": "Consensus",
-      "over_odds": -115,
-      "under_odds": -115,
-      "differential": -11.5,
-      "abs_differential": 11.5,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-11-22 20:32 UTC"
-    },
     {
       "game_id": "401920905",
       "game_date": "2026-11-22",
@@ -45,7 +23,7 @@
       "differential": -3.0,
       "abs_differential": 3.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-22 20:32 UTC"
+      "run_timestamp": "2026-11-22 22:19 UTC"
     },
     {
       "game_id": "401926774",
@@ -67,7 +45,29 @@
       "differential": -3.0,
       "abs_differential": 3.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-22 20:32 UTC"
+      "run_timestamp": "2026-11-22 22:19 UTC"
+    },
+    {
+      "game_id": "401906868",
+      "game_date": "2026-11-22",
+      "away_team": "Southern Indiana Screaming Eagles",
+      "home_team": "Texas Longhorns",
+      "game_time": "3:00 PM ET",
+      "neutral_site": false,
+      "status": "live",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 69.5,
+      "predicted_home_score": 73.0,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": null,
+      "sportsbook": null,
+      "over_odds": null,
+      "under_odds": null,
+      "differential": null,
+      "abs_differential": null,
+      "edge_side": null,
+      "run_timestamp": "2026-11-22 22:19 UTC"
     },
     {
       "game_id": "401902281",
@@ -89,7 +89,7 @@
       "differential": null,
       "abs_differential": null,
       "edge_side": null,
-      "run_timestamp": "2026-11-22 20:32 UTC"
+      "run_timestamp": "2026-11-22 22:19 UTC"
     }
   ]
 }
