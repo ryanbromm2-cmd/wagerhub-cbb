@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24 01:26 UTC",
+  "generated_at": "2026-11-24 03:11 UTC",
   "date": "2026-11-24",
   "game_count": 10,
   "games": [
@@ -23,7 +23,7 @@
       "differential": -31.5,
       "abs_differential": 31.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-24 01:26 UTC"
+      "run_timestamp": "2026-11-24 03:11 UTC"
     },
     {
       "game_id": "401921709",
@@ -38,36 +38,14 @@
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 160.5,
-      "sportsbook": "Draftkings",
+      "market_total": 159.5,
+      "sportsbook": "Consensus",
       "over_odds": -110,
       "under_odds": -110,
-      "differential": -18.0,
-      "abs_differential": 18.0,
+      "differential": -17.0,
+      "abs_differential": 17.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-24 01:26 UTC"
-    },
-    {
-      "game_id": "401915943",
-      "game_date": "2026-11-24",
-      "away_team": "Oregon Ducks",
-      "home_team": "St. John's Red Storm",
-      "game_time": "10:30 PM ET",
-      "neutral_site": true,
-      "status": "scheduled",
-      "ensemble_total": 142.5,
-      "predicted_away_score": 71.2,
-      "predicted_home_score": 71.2,
-      "predicted_possessions": 68.5,
-      "confidence_score": 0.28,
-      "market_total": 158.0,
-      "sportsbook": "Consensus",
-      "over_odds": -108,
-      "under_odds": -112,
-      "differential": -15.5,
-      "abs_differential": 15.5,
-      "edge_side": "UNDER",
-      "run_timestamp": "2026-11-24 01:26 UTC"
+      "run_timestamp": "2026-11-24 03:11 UTC"
     },
     {
       "game_id": "401909800",
@@ -82,14 +60,36 @@
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
+      "market_total": 158.5,
+      "sportsbook": "Consensus",
+      "over_odds": -108,
+      "under_odds": -112,
+      "differential": -16.0,
+      "abs_differential": 16.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-24 03:11 UTC"
+    },
+    {
+      "game_id": "401915943",
+      "game_date": "2026-11-24",
+      "away_team": "Oregon Ducks",
+      "home_team": "St. John's Red Storm",
+      "game_time": "10:30 PM ET",
+      "neutral_site": true,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 71.2,
+      "predicted_home_score": 71.2,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
       "market_total": 157.5,
       "sportsbook": "Consensus",
-      "over_odds": -105,
-      "under_odds": -115,
+      "over_odds": -108,
+      "under_odds": -112,
       "differential": -15.0,
       "abs_differential": 15.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-24 01:26 UTC"
+      "run_timestamp": "2026-11-24 03:11 UTC"
     },
     {
       "game_id": "401906774",
@@ -106,12 +106,12 @@
       "confidence_score": 0.28,
       "market_total": 157.0,
       "sportsbook": "Consensus",
-      "over_odds": -112,
-      "under_odds": -108,
+      "over_odds": -108,
+      "under_odds": -112,
       "differential": -14.5,
       "abs_differential": 14.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-24 01:26 UTC"
+      "run_timestamp": "2026-11-24 03:11 UTC"
     },
     {
       "game_id": "401916319",
@@ -133,7 +133,7 @@
       "differential": -13.5,
       "abs_differential": 13.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-24 01:26 UTC"
+      "run_timestamp": "2026-11-24 03:11 UTC"
     },
     {
       "game_id": "401915941",
@@ -150,12 +150,12 @@
       "confidence_score": 0.28,
       "market_total": 155.0,
       "sportsbook": "Consensus",
-      "over_odds": -110,
-      "under_odds": -110,
+      "over_odds": -108,
+      "under_odds": -112,
       "differential": -12.5,
       "abs_differential": 12.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-24 01:26 UTC"
+      "run_timestamp": "2026-11-24 03:11 UTC"
     },
     {
       "game_id": "401915942",
@@ -170,14 +170,14 @@
       "predicted_home_score": 71.2,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 153.5,
+      "market_total": 154.0,
       "sportsbook": "Consensus",
-      "over_odds": -115,
-      "under_odds": -105,
-      "differential": -11.0,
-      "abs_differential": 11.0,
+      "over_odds": -105,
+      "under_odds": -115,
+      "differential": -11.5,
+      "abs_differential": 11.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-24 01:26 UTC"
+      "run_timestamp": "2026-11-24 03:11 UTC"
     },
     {
       "game_id": "401906853",
@@ -194,12 +194,12 @@
       "confidence_score": 0.28,
       "market_total": 146.0,
       "sportsbook": "Consensus",
-      "over_odds": -110,
-      "under_odds": -110,
+      "over_odds": -105,
+      "under_odds": -115,
       "differential": -3.5,
       "abs_differential": 3.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-24 01:26 UTC"
+      "run_timestamp": "2026-11-24 03:11 UTC"
     },
     {
       "game_id": "401916291",
@@ -214,14 +214,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 144.5,
-      "sportsbook": "Fanduel",
-      "over_odds": -115,
-      "under_odds": -105,
-      "differential": -2.0,
-      "abs_differential": 2.0,
+      "market_total": 146.0,
+      "sportsbook": "Consensus",
+      "over_odds": -110,
+      "under_odds": -110,
+      "differential": -3.5,
+      "abs_differential": 3.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-24 01:26 UTC"
+      "run_timestamp": "2026-11-24 03:11 UTC"
     }
   ]
 }
