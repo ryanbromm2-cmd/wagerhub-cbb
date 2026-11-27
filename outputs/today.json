@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27 00:57 UTC",
+  "generated_at": "2026-11-27 04:01 UTC",
   "date": "2026-11-27",
-  "game_count": 7,
+  "game_count": 9,
   "games": [
     {
       "game_id": "401913531",
@@ -16,14 +16,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 175.0,
+      "market_total": 176.5,
       "sportsbook": "Consensus",
-      "over_odds": -108,
-      "under_odds": -112,
-      "differential": -32.5,
-      "abs_differential": 32.5,
+      "over_odds": -110,
+      "under_odds": -110,
+      "differential": -34.0,
+      "abs_differential": 34.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-27 00:57 UTC"
+      "run_timestamp": "2026-11-27 04:01 UTC"
     },
     {
       "game_id": "401909789",
@@ -40,12 +40,34 @@
       "confidence_score": 0.28,
       "market_total": 159.0,
       "sportsbook": "Consensus",
-      "over_odds": -110,
-      "under_odds": -110,
+      "over_odds": -105,
+      "under_odds": -115,
       "differential": -16.5,
       "abs_differential": 16.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-27 00:57 UTC"
+      "run_timestamp": "2026-11-27 04:01 UTC"
+    },
+    {
+      "game_id": "401921718",
+      "game_date": "2026-11-27",
+      "away_team": "Texas Longhorns",
+      "home_team": "Saint Mary's Gaels",
+      "game_time": "5:00 PM ET",
+      "neutral_site": true,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 71.2,
+      "predicted_home_score": 71.2,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 158.5,
+      "sportsbook": "Consensus",
+      "over_odds": -110,
+      "under_odds": -110,
+      "differential": -16.0,
+      "abs_differential": 16.0,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-27 04:01 UTC"
     },
     {
       "game_id": "401920429",
@@ -67,7 +89,7 @@
       "differential": -14.5,
       "abs_differential": 14.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-27 00:57 UTC"
+      "run_timestamp": "2026-11-27 04:01 UTC"
     },
     {
       "game_id": "401929288",
@@ -83,13 +105,35 @@
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
       "market_total": 156.5,
-      "sportsbook": "Fanduel",
-      "over_odds": -110,
-      "under_odds": -110,
+      "sportsbook": "Consensus",
+      "over_odds": -115,
+      "under_odds": -105,
       "differential": -14.0,
       "abs_differential": 14.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-27 00:57 UTC"
+      "run_timestamp": "2026-11-27 04:01 UTC"
+    },
+    {
+      "game_id": "401921717",
+      "game_date": "2026-11-27",
+      "away_team": "Georgetown Hoyas",
+      "home_team": "UCLA Bruins",
+      "game_time": "2:30 PM ET",
+      "neutral_site": true,
+      "status": "scheduled",
+      "ensemble_total": 142.5,
+      "predicted_away_score": 71.2,
+      "predicted_home_score": 71.2,
+      "predicted_possessions": 68.5,
+      "confidence_score": 0.28,
+      "market_total": 153.0,
+      "sportsbook": "Consensus",
+      "over_odds": -110,
+      "under_odds": -110,
+      "differential": -10.5,
+      "abs_differential": 10.5,
+      "edge_side": "UNDER",
+      "run_timestamp": "2026-11-27 04:01 UTC"
     },
     {
       "game_id": "401911030",
@@ -104,14 +148,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 154.0,
+      "market_total": 152.5,
       "sportsbook": "Consensus",
-      "over_odds": -108,
-      "under_odds": -112,
-      "differential": -11.5,
-      "abs_differential": 11.5,
+      "over_odds": -105,
+      "under_odds": -115,
+      "differential": -10.0,
+      "abs_differential": 10.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-27 00:57 UTC"
+      "run_timestamp": "2026-11-27 04:01 UTC"
     },
     {
       "game_id": "401921827",
@@ -126,14 +170,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 150.5,
-      "sportsbook": "Fanduel",
-      "over_odds": -110,
-      "under_odds": -110,
-      "differential": -8.0,
-      "abs_differential": 8.0,
+      "market_total": 151.0,
+      "sportsbook": "Consensus",
+      "over_odds": -115,
+      "under_odds": -105,
+      "differential": -8.5,
+      "abs_differential": 8.5,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-27 00:57 UTC"
+      "run_timestamp": "2026-11-27 04:01 UTC"
     },
     {
       "game_id": "401925703",
@@ -148,14 +192,14 @@
       "predicted_home_score": 73.0,
       "predicted_possessions": 68.5,
       "confidence_score": 0.28,
-      "market_total": 150.0,
+      "market_total": 146.5,
       "sportsbook": "Consensus",
-      "over_odds": -108,
-      "under_odds": -112,
-      "differential": -7.5,
-      "abs_differential": 7.5,
+      "over_odds": -105,
+      "under_odds": -115,
+      "differential": -4.0,
+      "abs_differential": 4.0,
       "edge_side": "UNDER",
-      "run_timestamp": "2026-11-27 00:57 UTC"
+      "run_timestamp": "2026-11-27 04:01 UTC"
     }
   ]
 }
